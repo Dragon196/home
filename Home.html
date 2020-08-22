@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Dev's Lab</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to Official Dev's Lab Website</h1>
+  <p>Version 2.0.0</p>
+</div>
+
+<div class="navbar">
+  <a href="https://dragon196.github.io/home/">Home</a>
+  <a href="https://dragon196.github.io/videos/">Videos</a>
+  <a href="https://dragon196.github.io/edits/">Video Edits</a>
+  <a href="https://dragon196.github.io/updates/">Updates</a>
+  <a href="https://dragon196.github.io/friends/">Friends</a>
+  <a href="https://dragon196.github.io/review/" class="right">Review</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5></h5>
+    <div class="fake.img" style="height:200px;"><img src="https://yt3.ggpht.com/a/AATXAJzsi6H4oBCf5e1DpMwb_xjxSD-tZ1Ksfx8Wzrmg=s100-c-k-c0xffffffff-no-rj-mo" height="200px"></div>
+    <p>I am an Indian. I am a teenager who loves Chemistry, Physics and Astronomy. I also love to code in computer languages. This whole website has been coded in Hyper Text Markup Language(HTML).<a href="https://docs.google.com/document/d/1PDxb-D824uJANEHnudwh38qTsiTK34Gu62OCJ-6hl74/edit?usp=sharing">CLICK HERE</a> to see the coding of this website. I have designed another website about Chemical Elements. <a href="https://dragon196.github.io/Elements-lightmode.com/">CLICK HERE</a> to visit the website. You can also use its Dark mode by clicking <a href="https://dragon196.github.io/Elements-darkmode.com/">HERE</a>.</p>
+    <h3>Other Websites</h3>
+    <div class="fakeimg" style="height:60px;"><a href="https://dragon196.github.io/Elements-lightmode.com/">Elements</a></div><br>
+  </div>
+  <div class="main">
+    <h2>Hello!!</h2>
+    <h5></h5>
+    <p>Hello everyone. This is my first experiance of making a website. I really have use only 2 computer languages to make this website. They are HTML and CSS. You can learn more about these websites by <a href="https://www.w3schools.com/">clicking here.</a></p>
+    <p>I will also upload a few video trailers and a few short experiments which will not be uploaded on Youtube. So please Subscribe to my channel and also now you can join my official Discord server by <a href="https://discord.gg/ATjZc6J">clicking here.</a></p>
+    <br>
+    <h2>Vote for my next video...</h2>
+    <h5>Click on the link or scan QR to vote for next video</h5>
+    <div class="fakeimg" style="height:200px;"><img src="https://chart.googleapis.com/chart?chl=https%3A%2F%2Fforms.gle%2FNGU4PahfnJA2XbkD8%2F&chs=200x200&cht=qr&chld=H%7C0&g-recaptcha-response=03AGdBq27MSxDfOJ3cjpzsoC7lZIT2FB-eY4aeQJmhF6qmn4APFbj77yK70TazoCpTDKks87EYT6AkjgetyyBF1ogWULOxnJHz5ku5svcbhnk7m-MwqOpZj3LwZhD4jx1VbsNuv0w2Lx45m3RB7xvisP-utijQfb226pddGszS7guApL4MsJI4S42SlMGvlkny-usCpFM9Rl8r_iU6T7OaBeohjeWSYfM-bGVf_U4_f9sm9olllwtm2KfOO3KAZRQ824biL32Wvf3K80nTmLWfgmJm0KNNHdgIUoXh0x5ehaNQFEjb2eu7WvpjpMMM3MzvwQbHvSG7L_NDuUKc6ZZsdIalxBm-QMw51-RhBpBGs4ZMTToL4tR8a8hm5qMIHG9WZB_l8zQsJDe5XKa9K56AAQnEaDgttWFLd08Vq7_SfD_kx9xJ-r354u1EDcZQe-fYMuq2Tnz4xFsL" height="155"></div>
+    <p><a href="https://forms.gle/NGU4PahfnJA2XbkD8/">Click here</a> if QR is not working.</p>
+    <p</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Looks like you have reached the end...</h2>
+  <p><font color="grey">Version 2.0.0</p>
+</div>
+
+</body>
+</html>
